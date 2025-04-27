@@ -16,12 +16,31 @@ Else
  
 Program:
 
-//type your code here
+'''
+#include<stdio.h>
+struct eligib
+{
+int age; char n[4];
+};
+int main()
+{
+struct eligib e;
+scanf("%d%s",&e.age,e.n);
+if(e.age<=6)
+{
+printf("Age:%d\nName:%svaccine:%d\neligibility:no",e.age,e.n,e.age);
+}
+else
+{
+printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
+}
+}
+'''
 
 
 Output:
 
-//paste your output here
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/02a63e32-3160-4351-a87d-881dcda49211" />
 
 
 Result:
